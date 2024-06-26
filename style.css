@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+
+}
+
+nav img {
+    width: 140px;
+    position: relative;
+    z-index: 1;
+   
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    background-image: url(/Assets/Images/background\ image.jpg);
+    background-position:center center;
+    background-size: max(1200px, 100vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+   
+}
+
+.main .boxes {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+.bichko-text {
+    font-family: "Dela Gothic One", sans-serif;
+    font-style: normal;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.bichko-text> :nth-child(1) {
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.bichko-text> :nth-child(2) {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bichko-text> :nth-child(3) {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* nth child parent ko first child lai manipulate garxa so we used immediate we used > otherwise 
+sabai ko ma dekauxa*/
+
+.separation {
+    height: 8px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.btn-red {
+    padding: 17px 36px;
+    font-weight:500;
+    background-color: rgba(255, 0, 0, 0.922);
+    color: white;
+    border-radius: 5px;
+    border: red;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.btn-red:hover{
+    background-color: #C11119;
+    transition: 1s;
+}
+
+
+
+.btn-red-sm {
+    padding: 8px 12px;
+    font-weight: 200;
+    background-color: #e50914ee;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    border: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-red-sm:hover{
+    background-color: #C11119;
+    transition: 1s;
+}
+button span {
+    font-size: 18px;
+}
+.hya {
+    padding: 18px 20px;
+    padding-right: 80px;
+  /* border-color: white; */
+  font-size: 18px;
+  font-weight: 100; 
+  background-color: rgba(31, 23, 20, 0.7); 
+  border: 1px solid #606160;
+  color: white;
+  border-radius: 3px;
+} 
+.hya::placeholder{
+    font-weight: 100;
+    color: white;
+}
+.first{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;   
+    height: 70vh;
+}
+.sec-img{
+    position: relative;
+}
+.sec-img img{
+width: 500px;
+   position: relative;
+   z-index: 10;
+}
+.sec-img video{
+    width: 450px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+
+}
+.first > div :first-child {
+    font-size: 38px;
+    font-family: "Dela Gothic One", sans-serif;
+    line-height: 60px;
+}
+.first > div :nth-child(3) {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.FAQ{
+    color: white;
+}
+.FAQ h2{
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    /* line-height: 69px; */
+    padding: 30px;
+
+}
+
+.faqbox{
+    background-color: #2D2D2D;
+    display: flex;
+    padding: 24px;
+ justify-content:space-between;
+    max-width: 70vw;
+ margin:8px auto;
+ cursor: pointer;
+ transition: all 0.5s ease-out;
+}
+.faqbox:hover{
+    background-color:#414141;
+}
+.faqbox span{
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+.svgimg{
+    width: 38px;
+}
+.faqtext{
+    text-align: center;
+    margin: 48px;
+}
+.faqtext span{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin: 23px;
+}
+.faqtext div{
+    margin: 12px;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: 8px auto;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+footer a{
+    color:rgb(214, 214, 214);
+    margin: 8px;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 12px auto;
+   
+    }
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+
+}
+.footerfirst{
+    font-size: 17px;
+}

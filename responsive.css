@@ -1,0 +1,53 @@
+@media screen and (max-width: 979px) {
+ .first{
+flex-wrap: wrap;
+ }
+         
+   } 
+
+@media screen and (max-width: 600px) {
+   .hya{
+    padding-right: 140px  ;
+   }
+ .btn-red{
+    margin-left: 100px;
+    margin-top: 10px;
+   }
+ 
+   .first > div :first-child {
+    font-size: 22px;
+    line-height: 40px;
+    
+}
+.first > div :nth-child(3){
+font-size: 16px;
+        
+  } 
+}
+
+@media screen and (max-width: 434px) {
+    .bichko-text> :nth-child(1) {
+        font-size: 26px;
+        text-align: center;
+    }
+         
+   } 
+   @media screen and (max-width: 378px) {
+    .hya{
+        padding-right: 80px  ;
+       }
+       .btn-red{
+        margin-left: 60px;
+       }
+       .sec-img img{
+        width: 400px;
+        }
+        .sec-img video{
+            width: 350px;
+            
+        
+        }
+    
+
+   } 
+
